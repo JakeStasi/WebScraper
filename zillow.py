@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
+#automated webscraper that searches home prices on zillow and stores the price, the link, and the address via a google form 
+
 GOOGLE_FORM = "https://docs.google.com/forms/d/e/1FAIpQLSdweo60pWUzpoQZJMo8CetJkIVnM3gVa7Zw0_anJHdAzn8QjQ/viewform?usp=sf_link"
 
 options = webdriver.ChromeOptions()
